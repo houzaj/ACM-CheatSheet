@@ -1,13 +1,14 @@
 # ACM-ICPC CheatSheet
 ![python](https://img.shields.io/badge/python-3.5-ff69b4.svg)
 
-ACM-ICPC模板，维护模板代码，自动生成PDF。
+ACM-ICPC模板
 
 ## Feature
-* 维护模板代码，自动生成PDF
+* 维护模板代码，自动生成PDF，[CheatSheet.pdf](CheatSheet.pdf)
 * 代码高亮，代码中渲染数学公式
 * 可直接插入`tex`文件
 * 仅包含一个文件的目录，会将该文件直接作为一个章节
+* 已有模板仅作为参考
 
 ## Usage
 1. 模板代码
@@ -29,5 +30,4 @@ ACM-ICPC模板，维护模板代码，自动生成PDF。
 [MIT License](LICENSE)
 
 ## Demo
-[CheatSheet.pdf](CheatSheet.pdf)
 ![](demo.png)
