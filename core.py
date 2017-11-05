@@ -38,7 +38,7 @@ class Generator(object):
             if not unique:
                 self.populate_section(name, depth)
             if item.is_dir():
-                self.populate(item, depth + 1)
+                self.populate(item, depth + 1 - unique)
             if item.is_file():
                 self.populate_file(name, lang, item.as_posix(), depth + 1 - unique)
 
