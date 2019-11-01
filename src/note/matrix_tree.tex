@@ -1,0 +1,42 @@
+\noindent\textbf{Illustration}
+
+\textit{Kirchhoff Matrix Tree} is used to calculate the number of the spanning tree in a graph.
+
+\textit{BEST} is used to calculate the number of the Euler circuit in a Euler graph.
+
+\noindent\textbf{Undirected Graph}
+
+Define $A$ is the adjacent matrix, $D$ is the degree matrix, then
+
+\begin{equation*}
+L(G) = D(G) - A(G)
+\end{equation*}
+
+\begin{equation*}
+t(G) = \det L(G) \binom{1, 2, \cdots, i - 1, i + 1, \cdots, n}{1, 2, \cdots, i - 1, i + 1, \cdots, n}
+\end{equation*}
+
+\noindent\textbf{Directed Graph}
+
+Define $A$ is the adjacent matrix, $D^{out}$ is the out degree matrix, $D^{in}$ is the in degree matrix, then
+
+\begin{equation*}
+\begin{aligned}
+L^{out}(G) &= D^{out}(G) - A(G) \\
+L^{in}(G) &= D^{in}(G) - A(G)
+\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+\begin{aligned}
+t^{root}(G) &= \det L^{out}(G) \binom{1, 2, \cdots, i - 1, i + 1, \cdots, n}{1, 2, \cdots, i - 1, i + 1, \cdots, n} \\
+t^{leaf}(G) &= \det L^{in}(G) \binom{1, 2, \cdots, i - 1, i + 1, \cdots, n}{1, 2, \cdots, i - 1, i + 1, \cdots, n}
+\end{aligned}
+\end{equation*}
+
+\noindent\textbf{BEST}
+
+\begin{equation*}
+ec(G) = t^{root}(G, k) \prod_{v\in V}(deg(v) - 1)!
+\end{equation*}
+

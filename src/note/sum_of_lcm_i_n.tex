@@ -1,0 +1,28 @@
+\noindent\textbf{Problem}
+
+\begin{equation*}
+f(n) = \sum_{i=1}^{n} lcm(i, n)
+\end{equation*}
+
+\noindent\textbf{Mobius Reversion}
+
+\begin{equation*}
+\begin{aligned}
+f(n) &= \sum_{i=1}^{n} \frac{in}{(i, n)} \\
+&= \frac{1}{2} \left(\sum_{i=1}^{n-1} \frac{in}{(i, n)} + \sum_{i=1}^{n-1} \frac{(n-i)n}{(i, n)} \right) + n \\
+&= \frac{1}{2} \sum_{i=1}^{n-1} \frac{n^2}{(i, n)} + n \\
+&= n + \frac{1}{2} \sum_{d=1}^{n-1} \sum_{i=1}^{n-1} \frac{n^2}{d} \left[(i, n) = d\right] \\
+&= n + \frac{1}{2} \sum_{d|n, d<n} \sum_{d|i,i<n} \frac{n^2}{d} \left[(\frac{i}{d}, \frac{n}{d}) = 1\right] \\
+&= n + \frac{1}{2} \sum_{d|n, d<n} \frac{n^2}{d} \varphi(\frac{n}{d}) \\
+&= n + \frac{1}{2}n \sum_{d|n, d>1} d\varphi(d) \\
+\end{aligned}
+\end{equation*}
+
+We let $g(n)=\sum_{d|n} d\varphi(d)$, and it is multiplicative obviously. Therefore, we can get it in $O(n)$, and we have
+
+\begin{equation*}
+\begin{aligned}
+f(n) &= n + \frac{1}{2}n \left[g(n) - \varphi(1)\right] \\
+\end{aligned}
+\end{equation*}
+

@@ -1,0 +1,51 @@
+\noindent\textbf{Mobius Reversion}
+
+\begin{equation*}
+	\begin{aligned}
+		& \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} (i, j) \\
+		& = \sum\limits_{d=1}^{n} d \cdot \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} [(i, j) = d] \\
+		& = \sum\limits_{d=1}^{n} d \cdot \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} \left[\left(\frac{i}{d}, \frac{j}{d}\right) = 1\right] \\
+		& = \sum\limits_{d=1}^{n} d \cdot \sum\limits_{\frac{i}{d}=1}^{n/d} \sum\limits_{\frac{j}{d}=1}^{m/d} \sum\limits_{x|(\frac{i}{d}, \frac{j}{d})} \mu(x) \\
+		& = \sum\limits_{d=1}^{n}d \cdot \sum\limits_{k=1}^{n/d} \mu(k) \left\lfloor \frac{n}{kd} \right\rfloor \left\lfloor \frac{m}{kd} \right\rfloor
+	\end{aligned}
+\end{equation*}
+
+\noindent\textbf{Euler Function}
+
+\begin{equation*}
+	\begin{aligned}
+		& \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} (i, j) \\
+		& = \sum\limits_{d=1}^{n}d \cdot \sum\limits_{k=1}^{n/d} \mu(k) \left\lfloor \frac{n}{kd} \right\rfloor \left\lfloor \frac{m}{kd} \right\rfloor \\
+		& = \sum\limits_{d=1}^{n} d \cdot \sum\limits_{T|n} \left\lfloor \frac{n}{T} \right\rfloor \left\lfloor \frac{m}{T} \right\rfloor \mu(\frac{T}{d}) \quad (let \; T = kd) \\
+		& = \sum\limits_{T=1}^{n} {\left\lfloor \frac{n}{T} \right\rfloor}{\left\lfloor \frac{m}{T} \right\rfloor} \sum\limits_{d|T} d \cdot \mu({\frac{T}{d}}) \\
+		& = \sum\limits_{T=1}^{n} {\left\lfloor \frac{n}{T} \right\rfloor}{\left\lfloor \frac{m}{T} \right\rfloor} \sum\limits_{d|T} \mu(d) \cdot \frac{T}{d} \\
+		& = \sum\limits_{T=1}^{n} {\left\lfloor \frac{n}{T} \right\rfloor}{\left\lfloor \frac{m}{T} \right\rfloor} \varphi(T)
+	\end{aligned}
+\end{equation*}
+
+\noindent\textbf{Dirichlet Convolution}
+
+\begin{equation*}
+	\begin{aligned}
+		& \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} (i, j) \\
+		& = \sum\limits_{T=1}^{n} {\left\lfloor \frac{n}{T} \right\rfloor}{\left\lfloor \frac{m}{T} \right\rfloor} \varphi(T)
+	\end{aligned}
+\end{equation*}
+
+let $\phi(n) = \sum\limits_{T=1}^{n} \varphi(T)$, according to
+
+\begin{equation*}
+	g(1)S(n) = \sum\limits_{i=1}^{n} (f \ast g)(i) - \sum\limits_{i=2}^{n} S\left(\left\lfloor \frac{n}{i} \right\rfloor \right)
+\end{equation*}
+
+then
+
+\begin{equation*}
+	\begin{aligned}
+		\phi(n) 
+		& = \sum\limits_{i=1}^{n} \sum\limits_{d|i} \varphi(d) - \sum\limits_{i=2}^{n} \phi \left(\left\lfloor \frac{n}{i} \right\rfloor \right) \\
+		& = \sum\limits_{i=1}^{n} i - \sum\limits_{i=2}^{n} \phi \left(\left\lfloor \frac{n}{i} \right\rfloor \right) \\
+		& = \frac{n(n + 1)}{2} - \sum\limits_{i=2}^{n} \phi \left(\left\lfloor \frac{n}{i} \right\rfloor \right)
+	\end{aligned}
+\end{equation*}
+

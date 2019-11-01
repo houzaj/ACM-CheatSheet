@@ -11,4 +11,5 @@ CODE_TYPE = [
     'cpp',
     'c++',
     'java',
+    'txt',
 ]

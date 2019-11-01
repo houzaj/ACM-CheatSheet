@@ -1,0 +1,48 @@
+\noindent\textbf{Problem}
+
+\begin{equation*}
+f(n, m) = \sum_{i=1}^{n} \sum_{i=1}^{m} lcm(i, j)
+\end{equation*}
+
+\noindent\textbf{Mobius Reversion}
+
+We assume that $n <= m$, then 
+
+\begin{equation*}
+\begin{aligned}
+\sum_{i=1}^{n} \sum_{i=1}^{m} lcm(i, j) &= \sum_{i=1}^{n} \sum_{i=1}^{m} \frac{ij}{gcd(i, j)} \\
+&= \sum_{i=1}^{n} \sum_{i=1}^{m} \sum_{d} \frac{ij}{\left[(i, j) = d\right] \cdot d} \\
+&= \sum_{i=1}^{n} \sum_{i=1}^{m} \sum_{d} \frac{ij}{\left[(i, j) = d\right] \cdot d^2} \cdot d \\
+&= \sum_{d=1}^{n} d \sum_{i=1}^{n/d} \sum_{j=1}^{m/d} \left[(i, j) = 1\right] \cdot ij \\
+\end{aligned}
+\end{equation*}
+
+let $g(n, m) = \sum_{i=1}^{n} \sum_{j=1}^{m} \left[(i, j) = 1\right] \cdot ij$, then
+
+\begin{equation*}
+\begin{aligned}
+g(n, m) &= \sum_{i=1}^{n} \sum_{j=1}^{m} \left[(i, j) = 1\right] \cdot ij \\
+&= \sum_{i=1}^{n} \sum_{j=1}^{m} \sum_{d | (i,j)} \mu(d) \cdot ij \\
+&= \sum_{d=1}^{n} \sum_{i=1}^{n/d} \sum_{j=1}^{m/d} \mu(d) \cdot id \cdot jd \\
+&= \sum_{d=1}^{n} d^2 \mu(d) \sum_{i=1}^{n/d} \sum_{j=1}^{m/d} ij \\
+\end{aligned}
+\end{equation*}
+
+let $h(n, m) = \sum_{i=1}^{n} \sum_{j=1}^{m} ij$, then
+
+\begin{equation*}
+\begin{aligned}
+h(n, m) = \sum_{i=1}^{n} \sum_{j=1}^{m} ij = \frac{n(n+1)}{2} \cdot \frac{m(m+1)}{2}
+\end{aligned}
+\end{equation*}
+
+Therefore,
+
+\begin{equation*}
+\begin{aligned}
+h(n, m) &= \frac{n(n+1)}{2} \cdot \frac{m(m+1)}{2} \\
+g(n, m) &= \sum_{d=1}^{n} d^2 \mu(d) \cdot h\left(\left\lfloor\frac{n}{d} \right\rfloor, \left\lfloor\frac{m}{d}\right\rfloor \right) \\
+f(n, m) &= \sum_{d=1}^{n} d \cdot g\left(\left\lfloor\frac{n}{d} \right\rfloor, \left\lfloor\frac{m}{d}\right\rfloor \right)
+\end{aligned}
+\end{equation*}
+

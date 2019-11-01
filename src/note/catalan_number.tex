@@ -1,0 +1,40 @@
+\noindent\textbf{Basic}
+
+\begin{equation*}
+C_n = C_{2n}^{n} - C_{2n}^{n - 1} = \frac{1}{n + 1} C^{n}_{2n}
+\end{equation*}
+
+\begin{equation*}
+C_n = \frac{1}{n+1} \sum_{i=0}^{n} (C_n^i)^2
+\end{equation*}
+
+\begin{equation*}
+C_{n+1} = \frac{2(2n+1)}{n+2}C_n, \quad C_0 = 1
+\end{equation*}
+
+\begin{equation*}
+C_{n+1} = \sum_{i=0}^{n} C_iC_{n-i}, \quad C_0 = 1
+\end{equation*}
+
+\noindent\textbf{DP and Extra}
+
+We construct a sequence only contains $-1$ and $1$. It satisfys the maximal prefix sum is less than or equal to $0$, i.e.
+
+\begin{equation*}
+\max_j\left\{{\sum_{i=1}^{j}a_i}\right\} \leq 0
+\end{equation*}
+
+We define $f(x,y)$ is using the number of $-1$ is $x$, and the number of $1$ is $y$. Then
+
+\begin{equation*}
+\begin{aligned}
+f(x,y) &= f(x-1,y) + f(x,y-1) &\quad (x >= y) \\
+f(x,y) &= 0 &\quad (x < y) \\
+f(x,y) &= 1 &\quad (x > 0, y = 0)
+\end{aligned}
+\end{equation*}
+
+It can be regarded as appending a new $1$ to the ending or a new $-1$, and they cannot increase the maximal prefix sum because of the condition $x >= y$. After appending, the new prefix sum is $y - x$, which is less than or equal to $0$.
+
+In addtion, $f(x, y) = C_{x+y}^x - C_{x+y}^{x+1} \quad (x \geq y)$
+

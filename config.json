@@ -1,0 +1,804 @@
+[
+	{
+		"section": "技巧",
+		"src": null,
+		"depth": 0
+	},
+	{
+		"section": "VIM配置",
+		"src": "./src/skill/vim_setup.cpp",
+		"depth": 1
+	},
+	{
+		"section": "运行脚本",
+		"src": "./src/skill/run_bash.cpp",
+		"depth": 1
+	},
+	{
+		"section": "Fast IO",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "C++二进制快读",
+		"src": "./src/skill/fast_io/c++_bin_read.cpp",
+		"depth": 2
+	},
+	{
+		"section": "C++非二进制快读",
+		"src": "./src/skill/fast_io/c++_char_read.cpp",
+		"depth": 2
+	},
+	{
+		"section": "C++手写输出",
+		"src": "./src/skill/fast_io/c++_write.cpp",
+		"depth": 2
+	},
+	{
+		"section": "Java IO类",
+		"src": "./src/skill/fast_io/java_io.java",
+		"depth": 2
+	},
+
+
+
+	{
+		"section": "字符串",
+		"src": null,
+		"depth": 0
+	},
+	{
+		"section": "后缀自动机",
+		"src": "./src/string/sam.cpp",
+		"depth": 1
+	},
+	{
+		"section": "后缀数组",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "求最长公共子串",
+		"src": "./src/string/sa/lcs.cpp",
+		"depth": 2
+	},
+	{
+		"section": "AC自动机",
+		"src": "./src/string/acmaton.cpp",
+		"depth": 1
+	},
+	{
+		"section": "Z函数",
+		"src": "./src/string/z_alg.cpp",
+		"depth": 1
+	},
+	{
+		"section": "KMP",
+		"src": "./src/string/kmp.cpp",
+		"depth": 1
+	},
+	{
+		"section": "字典树",
+		"src": "./src/string/trie.cpp",
+		"depth": 1
+	},
+	{
+		"section": "Manacher",
+		"src": "./src/string/manacher.cpp",
+		"depth": 1
+	},
+	{
+		"section": "回文树",
+		"src": "./src/string/pali_tree.cpp",
+		"depth": 1
+	},
+	{
+		"section": "表达式",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "调度场算法（后缀表达式）",
+		"src": "./src/string/expression/suff_exp.cpp",
+		"depth": 2
+	},
+	{
+		"section": "后缀表达式+表达式树（化简表达式）",
+		"src": "./src/string/expression/simplify_exp.cpp",
+		"depth": 2
+	},
+
+
+
+	{
+		"section": "数学",
+		"src": null,
+		"depth": 0
+	},
+	{
+		"section": "快速幂",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "快速幂",
+		"src": "./src/math/quickpow/qp.cpp",
+		"depth": 2
+	},
+	{
+		"section": "矩阵快速幂",
+		"src": "./src/math/quickpow/matrix_qp.cpp",
+		"depth": 2
+	},
+	{
+		"section": "线性筛",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "求素数与欧拉函数",
+		"src": "./src/math/linear_sieve/calc_phi.cpp",
+		"depth": 2
+	},
+	{
+		"section": "求积性函数",
+		"src": "./src/math/linear_sieve/calc_fun.cpp",
+		"depth": 2
+	},
+	{
+		"section": "求莫比乌斯函数",
+		"src": "./src/math/linear_sieve/calc_mu.cpp",
+		"depth": 2
+	},
+	{
+		"section": "中国剩余定理",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "非互质",
+		"src": "./src/math/chinese_remainder/common.cpp",
+		"depth": 2
+	},
+	{
+		"section": "互质",
+		"src": "./src/math/chinese_remainder/special.cpp",
+		"depth": 2
+	},
+	{
+		"section": "高斯消元",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "解线性方程组",
+		"src": "./src/math/gauss/solve.cpp",
+		"depth": 2
+	},
+	{
+		"section": "辗转相除思想的高斯消元",
+		"src": "./src/math/gauss/mod_with_not_prime.cpp",
+		"depth": 2
+	},
+	{
+		"section": "牛顿迭代法",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "求多项式的根",
+		"src": "./src/math/newton/solve_poly_root.cpp",
+		"depth": 2
+	},
+	{
+		"section": "给定整数$N$，求最大的满足$x^2 \\le N$的$x$",
+		"src": "./src/math/newton/int_sqrt.java",
+		"depth": 2
+	},
+	{
+		"section": "拉格朗日插值法",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "拉格朗日插值法",
+		"src": "./src/math/lagrange/lagrange.cpp",
+		"depth": 2
+	},
+	{
+		"section": "求$i^k$的前缀和",
+		"src": "./src/math/lagrange/calc_ik.cpp",
+		"depth": 2
+	},
+	{
+		"section": "线性基",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "求异或和值的第k小数",
+		"src": "./src/math/linear_base/xorsum_k.cpp",
+		"depth": 2
+	},
+	{
+		"section": "欧拉降幂",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "计算 $a^{a^{a^{\\cdots}}}$",
+		"src": "./src/math/euler_dec_pow/calc.cpp",
+		"depth": 2
+	},
+	{
+		"section": "FFT与NTT",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "FFT",
+		"src": "./src/math/fft_ntt/fft.cpp",
+		"depth": 2
+	},
+	{
+		"section": "NTT",
+		"src": "./src/math/fft_ntt/ntt.cpp",
+		"depth": 2
+	},
+	{
+		"section": "生成函数",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "普通型",
+		"src": "./src/math/generate_fun/normal.cpp",
+		"depth": 2
+	},
+	{
+		"section": "BSGS",
+		"src": "./src/math/bsgs.cpp",
+		"depth": 1
+	},
+	{
+		"section": "自适应辛普森积分",
+		"src": "./src/math/simpson.cpp",
+		"depth": 1
+	},
+	{
+		"section": "扩展欧几里德",
+		"src": "./src/math/extgcd.cpp",
+		"depth": 1
+	},
+	{
+		"section": "反素数",
+		"src": "./src/math/inv_prime.cpp",
+		"depth": 1
+	},
+	{
+		"section": "康托展开",
+		"src": "./src/math/cantor.cpp",
+		"depth": 1
+	},
+	{
+		"section": "杜教筛",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "求积性函数前缀和",
+		"src": "./src/math/dujiao/calc_fun_pref_sum.cpp",
+		"depth": 2
+	},
+	{
+		"section": "Min\\_25筛",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "求积性函数前缀和",
+		"src": "./src/math/min25/calc_fun_pref_sum.cpp",
+		"depth": 2
+	},	
+
+
+
+	{
+		"section": "树",
+		"src": null,
+		"depth": 0
+	},
+	{
+		"section": "树状数组",
+		"src": "./src/tree/fenwick_tree.cpp",
+		"depth": 1
+	},
+	{
+		"section": "线段树",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "线段树合并",
+		"src": "./src/tree/segment_tree/merge.cpp",
+		"depth": 2
+	},
+	{
+		"section": "主席树",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "主席树",
+		"src": "./src/tree/chairman_tree/chairman_tree.cpp",
+		"depth": 2
+	},
+	{
+		"section": "在$[x_1, x_2]$中lower\\_bound($y$)",
+		"src": "./src/tree/chairman_tree/lower_bound_y.cpp",
+		"depth": 2
+	},
+	{
+		"section": "平衡树",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "Treap",
+		"src": "./src/tree/balanced_tree/treap.cpp",
+		"depth": 2
+	},
+	{
+		"section": "Splay",
+		"src": "./src/tree/balanced_tree/splay.cpp",
+		"depth": 2
+	},
+	{
+		"section": "可持久化FHQ Treap",	
+		"src": "./src/tree/balanced_tree/maintained_fhq_treap.cpp",
+		"depth": 2
+	},
+	{
+		"section": "带pushdown的可持久化FHQ Treap",
+		"src": "./src/tree/balanced_tree/maintained_fhq_treap_with_pushdown.cpp",
+		"depth": 2
+	},
+	{
+		"section": "LCA",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "倍增法",
+		"src": "./src/tree/lca/2pow.cpp",
+		"depth": 2
+	},
+	{
+		"section": "Tarjan",
+		"src": "./src/tree/lca/tarjan.cpp",
+		"depth": 2
+	},
+	{
+		"section": "RMQ",
+		"src": "./src/tree/lca/rmq.cpp",
+		"depth": 2
+	},
+	{
+		"section": "带权并查集",
+		"src": "./src/tree/dsu_with_val.cpp",
+		"depth": 1
+	},
+	{
+		"section": "DFS序",
+		"src": "./src/tree/dfs_clock.cpp",
+		"depth": 1
+	},
+	{
+		"section": "树的直径",
+		"src": "./src/tree/tree_diameter.cpp",
+		"depth": 1
+	},
+	{
+		"section": "树链剖分",
+		"src": "./src/tree/tree_chain.cpp",
+		"depth": 1
+	},
+	{
+		"section": "ODT",
+		"src": "./src/tree/odt.cpp",
+		"depth": 1
+	},
+	{
+		"section": "点分治",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "点分治",
+		"src": "./src/tree/divide_and_conque/divide_and_conque.cpp",
+		"depth": 2
+	},
+	{
+		"section": "动态点分治",
+		"src": "./src/tree/divide_and_conque/divide_and_conque_with_dynamic.cpp",
+		"depth": 2
+	},
+	{
+		"section": "LCT",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "LCT",
+		"src": "./src/tree/lct/lct.cpp",
+		"depth": 2
+	},
+	{
+		"section": "可维护子树信息的LCT",
+		"src": "./src/tree/lct/lct_with_maintained_subtree.cpp",
+		"depth": 2
+	},
+	{
+		"section": "左偏树",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "左偏树",
+		"src": "./src/tree/leftist_tree/leftist_tree.cpp",
+		"depth": 2
+	},
+	{
+		"section": "带pushdown的左偏树",
+		"src": "./src/tree/leftist_tree/leftist_tree_with_pushdown.cpp",
+		"depth": 2
+	},
+
+
+	{
+		"section": "图论",
+		"src": null,
+		"depth": 0
+	},
+	{
+		"section": "最短路",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "SPFA（带SLF优化）",
+		"src": "./src/graph/msp/spfa_with_slf.cpp",
+		"depth": 2
+	},
+	{
+		"section": "Dijkstra",
+		"src": "./src/graph/msp/dijkstra.cpp",
+		"depth": 2
+	},
+	{
+		"section": "最小生成树",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "Prim",
+		"src": "./src/graph/mst/prim.cpp",
+		"depth": 2
+	},
+	{
+		"section": "Kruskal",
+		"src": "./src/graph/mst/kruskal.cpp",
+		"depth": 2
+	},
+	{
+		"section": "拓扑排序 - BFS",
+		"src": "./src/graph/toposort_bfs.cpp",
+		"depth": 1
+	},
+	{
+		"section": "极大团",
+		"src": "./src/graph/almost_max_clique.cpp",
+		"depth": 1
+	},
+	{
+		"section": "最大团",
+		"src": "./src/graph/max_clique.cpp",
+		"depth": 1
+	},
+	{
+		"section": "最大流",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "ISAP",
+		"src": "./src/graph/max_flow/isap.cpp",
+		"depth": 2
+	},
+	{
+		"section": "HLPP",
+		"src": "./src/graph/max_flow/hlpp.cpp",
+		"depth": 2
+	},
+	{
+		"section": "费用流",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "EK+SPFA算法",
+		"src": "./src/graph/cost_flow/ek_spfa.cpp",
+		"depth": 2
+	},
+	{
+		"section": "Primal-dual Dijkstra方法",
+		"src": "./src/graph/cost_flow/primal-dual-dijkstra.cpp",
+		"depth": 2
+	},
+	{
+		"section": "带Primal-dual Dijkstra的多路增广方法",
+		"src": "./src/graph/cost_flow/multi_aug_with_primal_dual_dijkstra.cpp",
+		"depth": 2
+	},
+	{
+		"section": "欧拉路",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "无向图 - Fluery算法",
+		"src": "./src/graph/euler/undirected.cpp",
+		"depth": 2
+	},
+	{
+		"section": "有向图",
+		"src": "./src/graph/euler/directed.cpp",
+		"depth": 2
+	},
+	{
+		"section": "图的匹配",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "二分图最大权匹配 - KM算法BFS版",
+		"src": "./src/graph/match/km_bfs.cpp",
+		"depth": 2
+	},
+	{
+		"section": "一般图最大匹配 - 带花树",
+		"src": "./src/graph/match/blossom.cpp",
+		"depth": 2
+	},
+	{
+		"section": "连通分量",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "点双连通分量 - Tarjan",
+		"src": "./src/graph/connected_component/node_tarjan.cpp",
+		"depth": 2
+	},
+	{
+		"section": "强连通分量（有向图）",
+		"src": "./src/graph/connected_component/scc.cpp",
+		"depth": 2
+	},
+
+	{
+		"section": "全局最小割",
+		"src": "./src/graph/global_cut.cpp",
+		"depth": 1
+	},
+	{
+		"section": "k短路",
+		"src": "./src/graph/k_path.cpp",
+		"depth": 1
+	},
+	{
+		"section": "2-SAT - 爆搜法",
+		"src": "./src/graph/2sat_brute_force.cpp",
+		"depth": 1
+	},
+
+
+
+	{
+		"section": "计算几何",
+		"src": null,
+		"depth": 0
+	},
+	{
+		"section": "半平面交",
+		"src": "./src/geo/half_plane.cpp",
+		"depth": 1
+	},
+	{
+		"section": "凸包 - Andrew算法",
+		"src": "./src/geo/andrew.cpp",
+		"depth": 1
+	},
+	{
+		"section": "线段相交",
+		"src": "./src/geo/segment_cross.cpp",
+		"depth": 1
+	},
+
+
+
+	{
+		"section": "数据结构与其他",
+		"src": null,
+		"depth": 0
+	},
+	{
+		"section": "单调队列求定长RMQ",
+		"src": "./src/dsao/mon_que_solve_rmq_with_k.cpp",
+		"depth": 1
+	},
+	{
+		"section": "单调栈求最小值所在区间",
+		"src": "./src/dsao/mon_stk_solve_min_interval.cpp",
+		"depth": 1
+	},
+	{
+		"section": "模拟退火",
+		"src": "./src/dsao/simulated_annealing.cpp",
+		"depth": 1
+	},
+	{
+		"section": "RMQ",
+		"src": "./src/dsao/rmq.cpp",
+		"depth": 1
+	},
+	{
+		"section": "SG函数",
+		"src": "./src/dsao/sg_function.cpp",
+		"depth": 1
+	},
+	{
+		"section": "悬线法求01矩阵",
+		"src": "./src/dsao/hang_line_solve_01matrix.cpp",
+		"depth": 1
+	},
+	{
+		"section": "双端队列",
+		"src": "./src/dsao/deque.cpp",
+		"depth": 1
+	},
+	{
+		"section": "全排列生成 - 迭代法",
+		"src": "./src/dsao/permuation_generation_iterate.cpp",
+		"depth": 1
+	},
+	{
+		"section": "动态DP",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "序列上的ddp",
+		"src": "./src/dsao/ddp/sequence.cpp",
+		"depth": 2
+	},
+	{
+		"section": "树上最大权独立集",
+		"src": "./src/dsao/ddp/max_independent_on_tree.cpp",
+		"depth": 2
+	},
+	{
+		"section": "CDQ分治",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "求解二维LIS问题",
+		"src": "./src/dsao/cdq/2d_lis.cpp",
+		"depth": 2
+	},
+	{
+		"section": "斜率DP",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "Codeforces 1083E",
+		"src": "./src/dsao/kdp/CF-1083E.cpp",
+		"depth": 2
+	},
+	{
+		"section": "莫队算法",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "不带修改",
+		"src": "./src/dsao/mo/without_modify.cpp",
+		"depth": 2
+	},
+	{
+		"section": "带修改",
+		"src": "./src/dsao/mo/with_modify.cpp",
+		"depth": 2
+	},
+	{
+		"section": "树上莫队",
+		"src": "./src/dsao/mo/mo_on_tree.cpp",
+		"depth": 2
+	},
+	{
+		"section": "分块",
+		"src": null,
+		"depth": 1
+	},
+	{
+		"section": "区间正偶数次数的个数（动态查询）",
+		"src": "./src/dsao/block/number_of_number_with_even_times_with_dynamic_query.cpp",
+		"depth": 2
+	},
+
+
+
+	{
+		"section": "Note",
+		"src": null,
+		"depth": 0
+	},
+	{
+		"section": "Formula And Equations",
+		"src": "./src/note/formula.tex",
+		"depth": 1
+	},
+	{
+		"section": "Facts",
+		"src": "./src/note/facts.tex",
+		"depth": 1
+	},
+	{
+		"section": "Catalan Number",
+		"src": "./src/note/catalan_number.tex",
+		"depth": 1
+	},
+	{
+		"section": "Combination",
+		"src": "./src/note/combination.tex",
+		"depth": 1
+	},
+	{
+		"section": "Sum of GCD",
+		"src": "./src/note/sum_of_gcd.tex",
+		"depth": 1
+	},
+	{
+		"section": "Sum of LCM",
+		"src": "./src/note/sum_of_lcm.tex",
+		"depth": 1
+	},
+	{
+		"section": "Sum of $d(i, j)$",
+		"src": "./src/note/sum_of_dij.tex",
+		"depth": 1
+	},
+	{
+		"section": "Sum of $lcm(i, n)$",
+		"src": "./src/note/sum_of_lcm_i_n.tex",
+		"depth": 1
+	},
+	{
+		"section": "Lagrange polynomial",
+		"src": "./src/note/lagrange_polynomial.tex",
+		"depth": 1
+	},
+	{
+		"section": "Min25 Sieve",
+		"src": "./src/note/min25_sieve.tex",
+		"depth": 1
+	},
+	{
+		"section": "Matrix Tree",
+		"src": "./src/note/matrix_tree.tex",
+		"depth": 1
+	}
+
+]

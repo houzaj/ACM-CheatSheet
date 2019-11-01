@@ -1,0 +1,32 @@
+\noindent\textbf{Problem}
+
+\begin{equation*}
+f(n, m) = \sum_{i=1}^{n} \sum_{j=1}^{m} d(ij)
+\end{equation*}
+
+\noindent\textbf{Mobius Reversion}
+
+We assume that $n <= m$, then we have
+
+\begin{equation*}
+\begin{aligned}
+d(ij) &= \sum_{x|i}\sum_{y|j} \left[(x, y) = 1\right] \\
+&= \sum_{x|i}\sum_{y|j} \sum_{p|(x,y)} \mu(p) \\
+&= \sum_{p=1}^{\min(i,j)} \sum_{x|i}\sum_{y|j} \left[p|(x, y)\right] \mu(p) \\
+&= \sum_{p|i,p|j} \mu(p) \sum_{x|i}\sum_{y|j} \left[p|(x, y)\right] \\
+&= \sum_{p|i,p|j} \mu(p) \sum_{px|i}\sum_{py|j} 1 \\
+&= \sum_{p|i,p|j} \mu(p) \sum_{x|\frac{i}{p}}\sum_{y|\frac{j}{p}} 1 \\
+&= \sum_{p|i,p|j} \mu(p) d\left(\frac{i}{p}\right) d\left(\frac{j}{p}\right) \\
+\end{aligned}
+\end{equation*}
+
+Therefore, 
+
+\begin{equation*}
+\begin{aligned}
+f(n, m) &= \sum_{i=1}^{n} \sum_{j=1}^{m} \sum_{p|i,p|j} \mu(p) d\left(\frac{i}{p}\right) d\left(\frac{j}{p}\right) \\
+&= \sum_{p=1}^{n} \sum_{i=1}^{n/p} \sum_{j=1}^{m/p} \mu(p)d(i)d(j) \\
+&= \sum_{p=1}^{n}\mu(p) \sum_{i=1}^{n/p}d(i) \sum_{j=1}^{m/p} d(j) \\
+\end{aligned}
+\end{equation*}
+

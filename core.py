@@ -1,46 +1,30 @@
 # coding=utf-8
 import logging
 import re
+import json
 from pathlib import Path
 
 import settings
 
 
 class Generator(object):
-    PATTERN = re.compile(r'^\w+?_(?P<name>.+?)(\.(?P<lang>\w+)){0,1}$')
 
     def __init__(self):
         self.content = []
 
-    def populate(self, folder=None, depth=0):
-        """
-        输出文档内容
-        :param folder: 模板根目录
-        :param depth: 遍历深度
-        :return: str
-        """
-        if folder is None:
-            folder = Path('./src')
-
-        # 如果folder内只有一个项目，则不输出子标题
-        unique = False
-        if len([i for i in folder.iterdir() if self.PATTERN.match(i.name)]) == 1:
-            unique = True
-
-        for item in folder.iterdir():
-            match = self.PATTERN.search(item.name)
-
-            if match is None:
-                logging.warning('Unknown file skipped: %r' % item.absolute())
-                continue
-
-            name, lang = match.group('name'), match.group('lang')
-            if not unique:
-                self.populate_section(name, depth)
-            if item.is_dir():
-                self.populate(item, depth + 1 - unique)
-            if item.is_file():
-                self.populate_file(name, lang, item.as_posix(), depth + 1 - unique)
+    def populate(self):
+        global data
+        with open('./config.json', 'r') as f:
+            data = json.load(f)
+        
+        for ele in data:
+            name, depth, src = ele['section'], ele['depth'], ele['src']
+            self.populate_section(name, depth)
+            
+            if ele['src'] is not None: # is File
+                lang = ele['src'].split('.')
+                lang = lang[len(lang) - 1]
+                self.populate_file(name, lang, src, depth)
 
         return '\n'.join(self.content)
 

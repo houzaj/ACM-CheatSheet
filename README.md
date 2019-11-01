@@ -1,33 +1,11 @@
-# ACM-ICPC CheatSheet
-![python](https://img.shields.io/badge/python-3.5-ff69b4.svg)
+# ACM Template
 
-ACM-ICPC模板
+本项目基于 [Lodour/ACM-CheatSheet](https://github.com/Lodour/ACM-CheatSheet)，一方面作为自动生成Latex模板的部分，另一方面作为本蒟蒻屯自己模板的一个项目 QAQ  
 
-## Feature
-* 维护模板代码，自动生成PDF，[CheatSheet.pdf](CheatSheet.pdf)
-* 代码高亮，代码中渲染数学公式
-* 可直接插入`tex`文件
-* 仅包含一个文件的目录，会将该文件直接作为一个章节
-* 已有模板仅作为参考
+本项目在原项目的基础上，改写`core.py`文件，引入`config.json`管理模板架构；修改`CheatSheet.sty`与`CheatSheet.tex`文件，调整封面风格。`config.json`中，每个对象均有三个属性  
 
-## Usage
-1. 模板代码
-    
-    * 依照`/src`目录下的格式进行排布。
+- `section`: 显示的标题  
+- `depth`: 深度，值为0, 1, 2，分别对应于`section`, `subsection`, `subsubsection`  
+- `src`: 文件对应路径（若为`null`则代表该项为目录）  
 
-2. 设置
-
-    * 自行配置`xelatex`编译环境
-    * `CheatSheet.sty`: 修改latex的相关样式
-    * `CheatSheet.tex`: 修改`Title`或`Owner Information`部分的信息
-    * `settings.py`: 请在此文件中添加其他代码语言
-
-3. 运行
-
-    `make build`
-
-## License
-[MIT License](LICENSE)
-
-## Demo
-![](demo.png)
+其余内容基本与原项目相同  

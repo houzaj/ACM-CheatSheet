@@ -1,0 +1,24 @@
+\begin{equation*}
+1^2+2^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}
+\end{equation*}
+
+\begin{equation*}
+1^3+2^3+\cdots+n^3=\left[\frac{n(n+1)}{2}\right]^2
+\end{equation*}
+
+\begin{equation*}
+\sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} \sum\limits_{a|i} \sum\limits_{b|j} f(a, b) = \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} \left\lfloor \frac{n}{i} \right\rfloor \left\lfloor \frac{m}{j} \right\rfloor f(i, j) 
+\end{equation*}
+
+\begin{equation*}
+\begin{aligned}
+& \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} \left\lfloor \frac{n}{i} \right\rfloor \left\lfloor \frac{m}{j} \right\rfloor \sum\limits_{x|(i, j)} f(x) \\
+& = \sum\limits_{i=1}^{n} \sum\limits_{j=1}^{m} \left\lfloor \frac{n}{i} \right\rfloor \left\lfloor \frac{m}{j} \right\rfloor \sum\limits_{d | i, d | j} f(d) \\
+& = \sum\limits_{d=1}^{\min(n, m)} f(d)  \sum\limits_{i=1}^{j} \sum\limits_{j=1}^{m} \left\lfloor \frac{n}{id} \right\rfloor 
+\left\lfloor \frac{m}{jd} \right\rfloor
+\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+b^2 - a^2 = \sum_{i=a}^{b-1}(2i+1)
+\end{equation*}

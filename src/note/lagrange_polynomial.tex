@@ -1,0 +1,29 @@
+\noindent\textbf{Basic}
+
+\begin{equation}
+f(x) = \sum_{i=0}^{k} y_il_i(x)
+\end{equation}
+
+\begin{equation*}
+l_i(x)=\prod_{j=0,i \neq j}^{k} \frac{x - x_j}{x_i - x_j} = 
+\left\{
+\begin{array}{lr}
+1, & x = x_i \\
+0, & x \neq x_i
+\end{array}
+\right.
+\end{equation*}
+
+\noindent\textbf{Sum of $i^k$}
+
+let $f(n) = \sum\limits_{i=1}^{n}i^k$, $d = k + 1$, then 
+
+\begin{equation*}
+\begin{aligned}
+f(n) & = \sum\limits_{i=0}^{k+1} f(i)l_i(n) \\
+& = \sum\limits_{i=0}^{k+1} \left( \prod\limits_{j=0, i \neq j}^{k+1} \frac{n-x_j}{x_i-x_j} \right) \\
+& = \sum\limits_{i=0}^{k+1} f(i) \cdot \frac{n(n-1) \cdots (n-i+1)(n-i-1) \cdots (n-d)}{i(i-1) \cdots 1 \cdot (-1)(-2) \cdots (i-d)} \\
+& = \sum\limits_{i=0}^{k+1} f(i) \cdot (-1)^{i+k+1} \cdot \frac{n(n-1) \cdots (n-i+1) \cdot (n-i-1) \cdots (n-d)}{i! \cdot (d-i)!}
+\end{aligned}
+\end{equation*}
+
