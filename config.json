@@ -737,6 +737,11 @@
 		"src": "./src/dsao/block/number_of_number_with_even_times_with_dynamic_query.cpp",
 		"depth": 2
 	},
+	{
+		"section": "区间众数（动态查询）",
+		"src": "./src/dsao/block/most_frequent_number_query_dynamic.cpp",
+		"depth": 2
+	},
 
 
 
@@ -744,6 +749,11 @@
 		"section": "Note",
 		"src": null,
 		"depth": 0
+	},
+	{
+		"section": "Prime Table",
+		"src": "./src/note/prime_table.tex",
+		"depth": 1
 	},
 	{
 		"section": "Formula And Equations",
