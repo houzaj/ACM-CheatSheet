@@ -1,10 +1,13 @@
+const int N = (int)2000 + 15;
+const int M = (int)2e6 + 15;
+const int inf = 0x3f3f3f3f;
 struct edge{
-    int v, val, nxt;
+    int v, cap, nxt;
 };
 
-int  d[N], head[N], gap[N], cur[N], pre[N];
+int d[N], head[N], gap[N], cur[N], pre[N];
 edge e[M << 1];
-int  tot;
+int tot;
 
 inline void init(){
     memset(head, -1, sizeof(head));
@@ -13,11 +16,11 @@ inline void init(){
     tot = 0;
 }
 
-void addEdge(int u, int v, int val){
-    e[tot].v   = v;
-    e[tot].val = val;
-    e[tot].nxt = head[u];
-    head[u]    = tot++;
+void addEdge(int u, int v, int cap){
+    e[tot] = edge{v, cap, head[u]};
+    head[u] = tot++;
+    e[tot] = edge{u, 0, head[v]};
+    head[v] = tot++;
 }
 
 int ISAP(int n, int src, int des){
@@ -25,35 +28,35 @@ int ISAP(int n, int src, int des){
     int sum = 0;
     int u = pre[src] = src;
     gap[0] = n;
-    
+
     while(d[src] < n){
         if(u == des){
             int aug = inf, v;
-            for(u = pre[des], v = des; v != src; v = u, u = pre[u])     aug = min(aug, e[cur[u]].val);
+            for(u = pre[des], v = des; v != src; v = u, u = pre[u])     aug = min(aug, e[cur[u]].cap);
             for(u = pre[des], v = des; v != src; v = u, u = pre[u]){
-                e[cur[u]].val   -= aug;
-                e[cur[u]^1].val += aug;
+                e[cur[u]].cap   -= aug;
+                e[cur[u]^1].cap += aug;
             }
             sum += aug;
             continue;
         }
-        
+
         bool flag = false;
         for(int& i = cur[u]; ~i; i = e[i].nxt){
             int v = e[i].v;
-            if(d[u] == d[v] + 1 && e[i].val){
+            if(d[u] == d[v] + 1 && e[i].cap){
                 pre[v] = u;
                 u = v;
                 flag = true;
                 break;
             }
         }
-        
+
         if(!flag){
             int mind = n;
             for(int i = head[u]; ~i; i = e[i].nxt){
                 int v = e[i].v;
-                if(e[i].val && d[v] < mind){
+                if(e[i].cap && d[v] < mind){
                     mind = d[v];
                     cur[u] = i;
                 }

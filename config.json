@@ -1,16 +1,16 @@
 [
 	{
-		"section": "æŠ€å·§",
+		"section": "¼¼ÇÉ",
 		"src": null,
 		"depth": 0
 	},
 	{
-		"section": "VIMé…ç½®",
+		"section": "VIMÅäÖÃ",
 		"src": "./src/skill/vim_setup.cpp",
 		"depth": 1
 	},
 	{
-		"section": "è¿è¡Œè„šæœ¬",
+		"section": "ÔËĞĞ½Å±¾",
 		"src": "./src/skill/run_bash.cpp",
 		"depth": 1
 	},
@@ -20,22 +20,22 @@
 		"depth": 1
 	},
 	{
-		"section": "C++äºŒè¿›åˆ¶å¿«è¯»",
+		"section": "C++¶ş½øÖÆ¿ì¶Á",
 		"src": "./src/skill/fast_io/c++_bin_read.cpp",
 		"depth": 2
 	},
 	{
-		"section": "C++éäºŒè¿›åˆ¶å¿«è¯»",
+		"section": "C++·Ç¶ş½øÖÆ¿ì¶Á",
 		"src": "./src/skill/fast_io/c++_char_read.cpp",
 		"depth": 2
 	},
 	{
-		"section": "C++æ‰‹å†™è¾“å‡º",
+		"section": "C++ÊÖĞ´Êä³ö",
 		"src": "./src/skill/fast_io/c++_write.cpp",
 		"depth": 2
 	},
 	{
-		"section": "Java IOç±»",
+		"section": "Java IOÀà",
 		"src": "./src/skill/fast_io/java_io.java",
 		"depth": 2
 	},
@@ -43,32 +43,32 @@
 
 
 	{
-		"section": "å­—ç¬¦ä¸²",
+		"section": "×Ö·û´®",
 		"src": null,
 		"depth": 0
 	},
 	{
-		"section": "åç¼€è‡ªåŠ¨æœº",
+		"section": "ºó×º×Ô¶¯»ú",
 		"src": "./src/string/sam.cpp",
 		"depth": 1
 	},
 	{
-		"section": "åç¼€æ•°ç»„",
+		"section": "ºó×ºÊı×é",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ±‚æœ€é•¿å…¬å…±å­ä¸²",
+		"section": "Çó×î³¤¹«¹²×Ó´®",
 		"src": "./src/string/sa/lcs.cpp",
 		"depth": 2
 	},
 	{
-		"section": "ACè‡ªåŠ¨æœº",
+		"section": "AC×Ô¶¯»ú",
 		"src": "./src/string/acmaton.cpp",
 		"depth": 1
 	},
 	{
-		"section": "Zå‡½æ•°",
+		"section": "Zº¯Êı",
 		"src": "./src/string/z_alg.cpp",
 		"depth": 1
 	},
@@ -78,7 +78,7 @@
 		"depth": 1
 	},
 	{
-		"section": "å­—å…¸æ ‘",
+		"section": "×ÖµäÊ÷",
 		"src": "./src/string/trie.cpp",
 		"depth": 1
 	},
@@ -88,22 +88,22 @@
 		"depth": 1
 	},
 	{
-		"section": "å›æ–‡æ ‘",
+		"section": "»ØÎÄÊ÷",
 		"src": "./src/string/pali_tree.cpp",
 		"depth": 1
 	},
 	{
-		"section": "è¡¨è¾¾å¼",
+		"section": "±í´ïÊ½",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "è°ƒåº¦åœºç®—æ³•ï¼ˆåç¼€è¡¨è¾¾å¼ï¼‰",
+		"section": "µ÷¶È³¡Ëã·¨£¨ºó×º±í´ïÊ½£©",
 		"src": "./src/string/expression/suff_exp.cpp",
 		"depth": 2
 	},
 	{
-		"section": "åç¼€è¡¨è¾¾å¼+è¡¨è¾¾å¼æ ‘ï¼ˆåŒ–ç®€è¡¨è¾¾å¼ï¼‰",
+		"section": "ºó×º±í´ïÊ½+±í´ïÊ½Ê÷£¨»¯¼ò±í´ïÊ½£©",
 		"src": "./src/string/expression/simplify_exp.cpp",
 		"depth": 2
 	},
@@ -111,127 +111,127 @@
 
 
 	{
-		"section": "æ•°å­¦",
+		"section": "ÊıÑ§",
 		"src": null,
 		"depth": 0
 	},
 	{
-		"section": "å¿«é€Ÿå¹‚",
+		"section": "¿ìËÙÃİ",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "å¿«é€Ÿå¹‚",
+		"section": "¿ìËÙÃİ",
 		"src": "./src/math/quickpow/qp.cpp",
 		"depth": 2
 	},
 	{
-		"section": "çŸ©é˜µå¿«é€Ÿå¹‚",
+		"section": "¾ØÕó¿ìËÙÃİ",
 		"src": "./src/math/quickpow/matrix_qp.cpp",
 		"depth": 2
 	},
 	{
-		"section": "çº¿æ€§ç­›",
+		"section": "ÏßĞÔÉ¸",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ±‚ç´ æ•°ä¸æ¬§æ‹‰å‡½æ•°",
+		"section": "ÇóËØÊıÓëÅ·À­º¯Êı",
 		"src": "./src/math/linear_sieve/calc_phi.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æ±‚ç§¯æ€§å‡½æ•°",
+		"section": "Çó»ıĞÔº¯Êı",
 		"src": "./src/math/linear_sieve/calc_fun.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æ±‚è«æ¯”ä¹Œæ–¯å‡½æ•°",
+		"section": "ÇóÄª±ÈÎÚË¹º¯Êı",
 		"src": "./src/math/linear_sieve/calc_mu.cpp",
 		"depth": 2
 	},
 	{
-		"section": "ä¸­å›½å‰©ä½™å®šç†",
+		"section": "ÖĞ¹úÊ£Óà¶¨Àí",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "éäº’è´¨",
+		"section": "·Ç»¥ÖÊ",
 		"src": "./src/math/chinese_remainder/common.cpp",
 		"depth": 2
 	},
 	{
-		"section": "äº’è´¨",
+		"section": "»¥ÖÊ",
 		"src": "./src/math/chinese_remainder/special.cpp",
 		"depth": 2
 	},
 	{
-		"section": "é«˜æ–¯æ¶ˆå…ƒ",
+		"section": "¸ßË¹ÏûÔª",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "è§£çº¿æ€§æ–¹ç¨‹ç»„",
+		"section": "½âÏßĞÔ·½³Ì×é",
 		"src": "./src/math/gauss/solve.cpp",
 		"depth": 2
 	},
 	{
-		"section": "è¾—è½¬ç›¸é™¤æ€æƒ³çš„é«˜æ–¯æ¶ˆå…ƒ",
+		"section": "Õ·×ªÏà³ıË¼ÏëµÄ¸ßË¹ÏûÔª",
 		"src": "./src/math/gauss/mod_with_not_prime.cpp",
 		"depth": 2
 	},
 	{
-		"section": "ç‰›é¡¿è¿­ä»£æ³•",
+		"section": "Å£¶Ùµü´ú·¨",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ±‚å¤šé¡¹å¼çš„æ ¹",
+		"section": "Çó¶àÏîÊ½µÄ¸ù",
 		"src": "./src/math/newton/solve_poly_root.cpp",
 		"depth": 2
 	},
 	{
-		"section": "ç»™å®šæ•´æ•°$N$ï¼Œæ±‚æœ€å¤§çš„æ»¡è¶³$x^2 \\le N$çš„$x$",
+		"section": "¸ø¶¨ÕûÊı$N$£¬Çó×î´óµÄÂú×ã$x^2 \\le N$µÄ$x$",
 		"src": "./src/math/newton/int_sqrt.java",
 		"depth": 2
 	},
 	{
-		"section": "æ‹‰æ ¼æœ—æ—¥æ’å€¼æ³•",
+		"section": "À­¸ñÀÊÈÕ²åÖµ·¨",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ‹‰æ ¼æœ—æ—¥æ’å€¼æ³•",
+		"section": "À­¸ñÀÊÈÕ²åÖµ·¨",
 		"src": "./src/math/lagrange/lagrange.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æ±‚$i^k$çš„å‰ç¼€å’Œ",
+		"section": "Çó$i^k$µÄÇ°×ººÍ",
 		"src": "./src/math/lagrange/calc_ik.cpp",
 		"depth": 2
 	},
 	{
-		"section": "çº¿æ€§åŸº",
+		"section": "ÏßĞÔ»ù",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ±‚å¼‚æˆ–å’Œå€¼çš„ç¬¬kå°æ•°",
+		"section": "ÇóÒì»òºÍÖµµÄµÚkĞ¡Êı",
 		"src": "./src/math/linear_base/xorsum_k.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æ¬§æ‹‰é™å¹‚",
+		"section": "Å·À­½µÃİ",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "è®¡ç®— $a^{a^{a^{\\cdots}}}$",
+		"section": "¼ÆËã $a^{a^{a^{\\cdots}}}$",
 		"src": "./src/math/euler_dec_pow/calc.cpp",
 		"depth": 2
 	},
 	{
-		"section": "FFTä¸NTT",
+		"section": "FFTÓëNTT",
 		"src": null,
 		"depth": 1
 	},
@@ -246,12 +246,12 @@
 		"depth": 2
 	},
 	{
-		"section": "ç”Ÿæˆå‡½æ•°",
+		"section": "Éú³Éº¯Êı",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ™®é€šå‹",
+		"section": "ÆÕÍ¨ĞÍ",
 		"src": "./src/math/generate_fun/normal.cpp",
 		"depth": 2
 	},
@@ -261,42 +261,42 @@
 		"depth": 1
 	},
 	{
-		"section": "è‡ªé€‚åº”è¾›æ™®æ£®ç§¯åˆ†",
+		"section": "×ÔÊÊÓ¦ĞÁÆÕÉ­»ı·Ö",
 		"src": "./src/math/simpson.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æ‰©å±•æ¬§å‡ é‡Œå¾·",
+		"section": "À©Õ¹Å·¼¸ÀïµÂ",
 		"src": "./src/math/extgcd.cpp",
 		"depth": 1
 	},
 	{
-		"section": "åç´ æ•°",
+		"section": "·´ËØÊı",
 		"src": "./src/math/inv_prime.cpp",
 		"depth": 1
 	},
 	{
-		"section": "åº·æ‰˜å±•å¼€",
+		"section": "¿µÍĞÕ¹¿ª",
 		"src": "./src/math/cantor.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æœæ•™ç­›",
+		"section": "¶Å½ÌÉ¸",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ±‚ç§¯æ€§å‡½æ•°å‰ç¼€å’Œ",
+		"section": "Çó»ıĞÔº¯ÊıÇ°×ººÍ",
 		"src": "./src/math/dujiao/calc_fun_pref_sum.cpp",
 		"depth": 2
 	},
 	{
-		"section": "Min\\_25ç­›",
+		"section": "Min\\_25É¸",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ±‚ç§¯æ€§å‡½æ•°å‰ç¼€å’Œ",
+		"section": "Çó»ıĞÔº¯ÊıÇ°×ººÍ",
 		"src": "./src/math/min25/calc_fun_pref_sum.cpp",
 		"depth": 2
 	},	
@@ -304,42 +304,42 @@
 
 
 	{
-		"section": "æ ‘",
+		"section": "Ê÷",
 		"src": null,
 		"depth": 0
 	},
 	{
-		"section": "æ ‘çŠ¶æ•°ç»„",
+		"section": "Ê÷×´Êı×é",
 		"src": "./src/tree/fenwick_tree.cpp",
 		"depth": 1
 	},
 	{
-		"section": "çº¿æ®µæ ‘",
+		"section": "Ïß¶ÎÊ÷",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "çº¿æ®µæ ‘åˆå¹¶",
+		"section": "Ïß¶ÎÊ÷ºÏ²¢",
 		"src": "./src/tree/segment_tree/merge.cpp",
 		"depth": 2
 	},
 	{
-		"section": "ä¸»å¸­æ ‘",
+		"section": "Ö÷Ï¯Ê÷",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "ä¸»å¸­æ ‘",
+		"section": "Ö÷Ï¯Ê÷",
 		"src": "./src/tree/chairman_tree/chairman_tree.cpp",
 		"depth": 2
 	},
 	{
-		"section": "åœ¨$[x_1, x_2]$ä¸­lower\\_bound($y$)",
+		"section": "ÔÚ$[x_1, x_2]$ÖĞlower\\_bound($y$)",
 		"src": "./src/tree/chairman_tree/lower_bound_y.cpp",
 		"depth": 2
 	},
 	{
-		"section": "å¹³è¡¡æ ‘",
+		"section": "Æ½ºâÊ÷",
 		"src": null,
 		"depth": 1
 	},
@@ -354,12 +354,12 @@
 		"depth": 2
 	},
 	{
-		"section": "å¯æŒä¹…åŒ–FHQ Treap",	
+		"section": "¿É³Ö¾Ã»¯FHQ Treap",	
 		"src": "./src/tree/balanced_tree/maintained_fhq_treap.cpp",
 		"depth": 2
 	},
 	{
-		"section": "å¸¦pushdownçš„å¯æŒä¹…åŒ–FHQ Treap",
+		"section": "´øpushdownµÄ¿É³Ö¾Ã»¯FHQ Treap",
 		"src": "./src/tree/balanced_tree/maintained_fhq_treap_with_pushdown.cpp",
 		"depth": 2
 	},
@@ -369,7 +369,7 @@
 		"depth": 1
 	},
 	{
-		"section": "å€å¢æ³•",
+		"section": "±¶Ôö·¨",
 		"src": "./src/tree/lca/2pow.cpp",
 		"depth": 2
 	},
@@ -384,22 +384,22 @@
 		"depth": 2
 	},
 	{
-		"section": "å¸¦æƒå¹¶æŸ¥é›†",
+		"section": "´øÈ¨²¢²é¼¯",
 		"src": "./src/tree/dsu_with_val.cpp",
 		"depth": 1
 	},
 	{
-		"section": "DFSåº",
+		"section": "DFSĞò",
 		"src": "./src/tree/dfs_clock.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æ ‘çš„ç›´å¾„",
+		"section": "Ê÷µÄÖ±¾¶",
 		"src": "./src/tree/tree_diameter.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æ ‘é“¾å‰–åˆ†",
+		"section": "Ê÷Á´ÆÊ·Ö",
 		"src": "./src/tree/tree_chain.cpp",
 		"depth": 1
 	},
@@ -409,17 +409,17 @@
 		"depth": 1
 	},
 	{
-		"section": "ç‚¹åˆ†æ²»",
+		"section": "µã·ÖÖÎ",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "ç‚¹åˆ†æ²»",
+		"section": "µã·ÖÖÎ",
 		"src": "./src/tree/divide_and_conque/divide_and_conque.cpp",
 		"depth": 2
 	},
 	{
-		"section": "åŠ¨æ€ç‚¹åˆ†æ²»",
+		"section": "¶¯Ì¬µã·ÖÖÎ",
 		"src": "./src/tree/divide_and_conque/divide_and_conque_with_dynamic.cpp",
 		"depth": 2
 	},
@@ -434,39 +434,39 @@
 		"depth": 2
 	},
 	{
-		"section": "å¯ç»´æŠ¤å­æ ‘ä¿¡æ¯çš„LCT",
+		"section": "¿ÉÎ¬»¤×ÓÊ÷ĞÅÏ¢µÄLCT",
 		"src": "./src/tree/lct/lct_with_maintained_subtree.cpp",
 		"depth": 2
 	},
 	{
-		"section": "å·¦åæ ‘",
+		"section": "×óÆ«Ê÷",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "å·¦åæ ‘",
+		"section": "×óÆ«Ê÷",
 		"src": "./src/tree/leftist_tree/leftist_tree.cpp",
 		"depth": 2
 	},
 	{
-		"section": "å¸¦pushdownçš„å·¦åæ ‘",
+		"section": "´øpushdownµÄ×óÆ«Ê÷",
 		"src": "./src/tree/leftist_tree/leftist_tree_with_pushdown.cpp",
 		"depth": 2
 	},
 
 
 	{
-		"section": "å›¾è®º",
+		"section": "Í¼ÂÛ",
 		"src": null,
 		"depth": 0
 	},
 	{
-		"section": "æœ€çŸ­è·¯",
+		"section": "×î¶ÌÂ·",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "SPFAï¼ˆå¸¦SLFä¼˜åŒ–ï¼‰",
+		"section": "SPFA£¨´øSLFÓÅ»¯£©",
 		"src": "./src/graph/msp/spfa_with_slf.cpp",
 		"depth": 2
 	},
@@ -476,7 +476,7 @@
 		"depth": 2
 	},
 	{
-		"section": "æœ€å°ç”Ÿæˆæ ‘",
+		"section": "×îĞ¡Éú³ÉÊ÷",
 		"src": null,
 		"depth": 1
 	},
@@ -491,22 +491,22 @@
 		"depth": 2
 	},
 	{
-		"section": "æ‹“æ‰‘æ’åº - BFS",
+		"section": "ÍØÆËÅÅĞò - BFS",
 		"src": "./src/graph/toposort_bfs.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æå¤§å›¢",
+		"section": "¼«´óÍÅ",
 		"src": "./src/graph/almost_max_clique.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æœ€å¤§å›¢",
+		"section": "×î´óÍÅ",
 		"src": "./src/graph/max_clique.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æœ€å¤§æµ",
+		"section": "×î´óÁ÷",
 		"src": null,
 		"depth": 1
 	},
@@ -521,83 +521,83 @@
 		"depth": 2
 	},
 	{
-		"section": "è´¹ç”¨æµ",
+		"section": "·ÑÓÃÁ÷",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "EK+SPFAç®—æ³•",
+		"section": "EK+SPFAËã·¨",
 		"src": "./src/graph/cost_flow/ek_spfa.cpp",
 		"depth": 2
 	},
 	{
-		"section": "Primal-dual Dijkstraæ–¹æ³•",
+		"section": "Primal-dual Dijkstra·½·¨",
 		"src": "./src/graph/cost_flow/primal-dual-dijkstra.cpp",
 		"depth": 2
 	},
 	{
-		"section": "å¸¦Primal-dual Dijkstraçš„å¤šè·¯å¢å¹¿æ–¹æ³•",
+		"section": "´øPrimal-dual DijkstraµÄ¶àÂ·Ôö¹ã·½·¨",
 		"src": "./src/graph/cost_flow/multi_aug_with_primal_dual_dijkstra.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æ¬§æ‹‰è·¯",
+		"section": "Å·À­Â·",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ— å‘å›¾ - Flueryç®—æ³•",
+		"section": "ÎŞÏòÍ¼ - FlueryËã·¨",
 		"src": "./src/graph/euler/undirected.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æœ‰å‘å›¾",
+		"section": "ÓĞÏòÍ¼",
 		"src": "./src/graph/euler/directed.cpp",
 		"depth": 2
 	},
 	{
-		"section": "å›¾çš„åŒ¹é…",
+		"section": "Í¼µÄÆ¥Åä",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "äºŒåˆ†å›¾æœ€å¤§æƒåŒ¹é… - KMç®—æ³•BFSç‰ˆ",
+		"section": "¶ş·ÖÍ¼×î´óÈ¨Æ¥Åä - KMËã·¨BFS°æ",
 		"src": "./src/graph/match/km_bfs.cpp",
 		"depth": 2
 	},
 	{
-		"section": "ä¸€èˆ¬å›¾æœ€å¤§åŒ¹é… - å¸¦èŠ±æ ‘",
+		"section": "Ò»°ãÍ¼×î´óÆ¥Åä - ´ø»¨Ê÷",
 		"src": "./src/graph/match/blossom.cpp",
 		"depth": 2
 	},
 	{
-		"section": "è¿é€šåˆ†é‡",
+		"section": "Á¬Í¨·ÖÁ¿",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "ç‚¹åŒè¿é€šåˆ†é‡ - Tarjan",
+		"section": "µãË«Á¬Í¨·ÖÁ¿ - Tarjan",
 		"src": "./src/graph/connected_component/node_tarjan.cpp",
 		"depth": 2
 	},
 	{
-		"section": "å¼ºè¿é€šåˆ†é‡ï¼ˆæœ‰å‘å›¾ï¼‰",
+		"section": "Ç¿Á¬Í¨·ÖÁ¿£¨ÓĞÏòÍ¼£©",
 		"src": "./src/graph/connected_component/scc.cpp",
 		"depth": 2
 	},
 
 	{
-		"section": "å…¨å±€æœ€å°å‰²",
+		"section": "È«¾Ö×îĞ¡¸î",
 		"src": "./src/graph/global_cut.cpp",
 		"depth": 1
 	},
 	{
-		"section": "kçŸ­è·¯",
+		"section": "k¶ÌÂ·",
 		"src": "./src/graph/k_path.cpp",
 		"depth": 1
 	},
 	{
-		"section": "2-SAT - çˆ†æœæ³•",
+		"section": "2-SAT - ±¬ËÑ·¨",
 		"src": "./src/graph/2sat_brute_force.cpp",
 		"depth": 1
 	},
@@ -605,22 +605,22 @@
 
 
 	{
-		"section": "è®¡ç®—å‡ ä½•",
+		"section": "¼ÆËã¼¸ºÎ",
 		"src": null,
 		"depth": 0
 	},
 	{
-		"section": "åŠå¹³é¢äº¤",
+		"section": "°ëÆ½Ãæ½»",
 		"src": "./src/geo/half_plane.cpp",
 		"depth": 1
 	},
 	{
-		"section": "å‡¸åŒ… - Andrewç®—æ³•",
+		"section": "Í¹°ü - AndrewËã·¨",
 		"src": "./src/geo/andrew.cpp",
 		"depth": 1
 	},
 	{
-		"section": "çº¿æ®µç›¸äº¤",
+		"section": "Ïß¶ÎÏà½»",
 		"src": "./src/geo/segment_cross.cpp",
 		"depth": 1
 	},
@@ -628,22 +628,22 @@
 
 
 	{
-		"section": "æ•°æ®ç»“æ„ä¸å…¶ä»–",
+		"section": "Êı¾İ½á¹¹ÓëÆäËû",
 		"src": null,
 		"depth": 0
 	},
 	{
-		"section": "å•è°ƒé˜Ÿåˆ—æ±‚å®šé•¿RMQ",
+		"section": "µ¥µ÷¶ÓÁĞÇó¶¨³¤RMQ",
 		"src": "./src/dsao/mon_que_solve_rmq_with_k.cpp",
 		"depth": 1
 	},
 	{
-		"section": "å•è°ƒæ ˆæ±‚æœ€å°å€¼æ‰€åœ¨åŒºé—´",
+		"section": "µ¥µ÷Õ»Çó×îĞ¡ÖµËùÔÚÇø¼ä",
 		"src": "./src/dsao/mon_stk_solve_min_interval.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æ¨¡æ‹Ÿé€€ç«",
+		"section": "Ä£ÄâÍË»ğ",
 		"src": "./src/dsao/simulated_annealing.cpp",
 		"depth": 1
 	},
@@ -653,52 +653,52 @@
 		"depth": 1
 	},
 	{
-		"section": "SGå‡½æ•°",
+		"section": "SGº¯Êı",
 		"src": "./src/dsao/sg_function.cpp",
 		"depth": 1
 	},
 	{
-		"section": "æ‚¬çº¿æ³•æ±‚01çŸ©é˜µ",
+		"section": "ĞüÏß·¨Çó01¾ØÕó",
 		"src": "./src/dsao/hang_line_solve_01matrix.cpp",
 		"depth": 1
 	},
 	{
-		"section": "åŒç«¯é˜Ÿåˆ—",
+		"section": "Ë«¶Ë¶ÓÁĞ",
 		"src": "./src/dsao/deque.cpp",
 		"depth": 1
 	},
 	{
-		"section": "å…¨æ’åˆ—ç”Ÿæˆ - è¿­ä»£æ³•",
+		"section": "È«ÅÅÁĞÉú³É - µü´ú·¨",
 		"src": "./src/dsao/permuation_generation_iterate.cpp",
 		"depth": 1
 	},
 	{
-		"section": "åŠ¨æ€DP",
+		"section": "¶¯Ì¬DP",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "åºåˆ—ä¸Šçš„ddp",
+		"section": "ĞòÁĞÉÏµÄddp",
 		"src": "./src/dsao/ddp/sequence.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æ ‘ä¸Šæœ€å¤§æƒç‹¬ç«‹é›†",
+		"section": "Ê÷ÉÏ×î´óÈ¨¶ÀÁ¢¼¯",
 		"src": "./src/dsao/ddp/max_independent_on_tree.cpp",
 		"depth": 2
 	},
 	{
-		"section": "CDQåˆ†æ²»",
+		"section": "CDQ·ÖÖÎ",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "æ±‚è§£äºŒç»´LISé—®é¢˜",
+		"section": "Çó½â¶şÎ¬LISÎÊÌâ",
 		"src": "./src/dsao/cdq/2d_lis.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æ–œç‡DP",
+		"section": "Ğ±ÂÊDP",
 		"src": null,
 		"depth": 1
 	},
@@ -708,37 +708,37 @@
 		"depth": 2
 	},
 	{
-		"section": "è«é˜Ÿç®—æ³•",
+		"section": "Äª¶ÓËã·¨",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "ä¸å¸¦ä¿®æ”¹",
+		"section": "²»´øĞŞ¸Ä",
 		"src": "./src/dsao/mo/without_modify.cpp",
 		"depth": 2
 	},
 	{
-		"section": "å¸¦ä¿®æ”¹",
+		"section": "´øĞŞ¸Ä",
 		"src": "./src/dsao/mo/with_modify.cpp",
 		"depth": 2
 	},
 	{
-		"section": "æ ‘ä¸Šè«é˜Ÿ",
+		"section": "Ê÷ÉÏÄª¶Ó",
 		"src": "./src/dsao/mo/mo_on_tree.cpp",
 		"depth": 2
 	},
 	{
-		"section": "åˆ†å—",
+		"section": "·Ö¿é",
 		"src": null,
 		"depth": 1
 	},
 	{
-		"section": "åŒºé—´æ­£å¶æ•°æ¬¡æ•°çš„ä¸ªæ•°ï¼ˆåŠ¨æ€æŸ¥è¯¢ï¼‰",
+		"section": "Çø¼äÕıÅ¼Êı´ÎÊıµÄ¸öÊı£¨¶¯Ì¬²éÑ¯£©",
 		"src": "./src/dsao/block/number_of_number_with_even_times_with_dynamic_query.cpp",
 		"depth": 2
 	},
 	{
-		"section": "åŒºé—´ä¼—æ•°ï¼ˆåŠ¨æ€æŸ¥è¯¢ï¼‰",
+		"section": "Çø¼äÖÚÊı£¨¶¯Ì¬²éÑ¯£©",
 		"src": "./src/dsao/block/most_frequent_number_query_dynamic.cpp",
 		"depth": 2
 	},
