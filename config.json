@@ -453,6 +453,21 @@
 		"src": "./src/tree/leftist_tree/leftist_tree_with_pushdown.cpp",
 		"depth": 2
 	},
+    {
+    	"section": "树套树",
+		"src": null,
+		"depth": 1
+    },
+    {
+		"section": "线段树套线段树: 多次询问求带区间修改的区间第K大数（BZOJ 3110）",
+		"src": "./src/tree/tree_in_tree/BZOJ3110.cpp",
+		"depth": 2
+	},
+    {
+		"section": "树状数组套主席树: 多次询问求带单点修改区间第K小数（ZJU 2112）",
+		"src": "./src/tree/tree_in_tree/ZJU2112.cpp",
+		"depth": 2
+	},
 
 
 	{
@@ -740,6 +755,16 @@
 	{
 		"section": "区间众数（动态查询）",
 		"src": "./src/dsao/block/most_frequent_number_query_dynamic.cpp",
+		"depth": 2
+	},
+    {
+		"section": "整体二分",
+		"src": null,
+		"depth": 1
+	},
+    {
+		"section": "多次询问求带区间修改的区间第K大数（BZOJ 3110）",
+		"src": "./src/dsao/total_bs/BZOJ3110.cpp",
 		"depth": 2
 	},
 
