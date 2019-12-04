@@ -354,6 +354,11 @@
 		"depth": 2
 	},
 	{
+		"section": "Splay分裂合并序列：Gym 100499F",
+		"src": "./src/tree/balanced_tree/splay_sequence.cpp",
+		"depth": 2
+	},
+	{
 		"section": "可持久化FHQ Treap",	
 		"src": "./src/tree/balanced_tree/maintained_fhq_treap.cpp",
 		"depth": 2
@@ -833,6 +838,11 @@
 	{
 		"section": "Matrix Tree",
 		"src": "./src/note/matrix_tree.tex",
+		"depth": 1
+	},
+    {
+		"section": "Euler's formula in planar graph",
+		"src": "./src/note/Eulers_formula_in_planar_graph.tex",
 		"depth": 1
 	}
 
